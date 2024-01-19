@@ -214,11 +214,12 @@
             android:id="@+id/app_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:backgroundTint="#f6f6f6"
             app:fabCradleMargin="8dp"
             app:fabCradleRoundedCornerRadius="50dp"
-            app:fabCradleVerticalOffset="6dp"
-            android:layout_gravity="bottom">
+            app:fabCradleVerticalOffset="6dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -325,7 +326,6 @@
                 </LinearLayout>
 
             </LinearLayout>
-
         </com.google.android.material.bottomappbar.BottomAppBar>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -336,8 +336,6 @@
             android:src="@drawable/shopping_cart"
             app:backgroundTint="#ff5e00"
             app:layout_anchor="@id/app_bar">
-
-
         </com.google.android.material.floatingactionbutton.FloatingActionButton>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
